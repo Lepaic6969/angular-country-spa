@@ -8,7 +8,6 @@ import { Country } from '../../interfaces/country.interface';
   styles: ``
 })
 export class ByCapitalPageComponent {
-
   public countries:Country[]=[];
 
   constructor(private countryService:CountriesService){}
