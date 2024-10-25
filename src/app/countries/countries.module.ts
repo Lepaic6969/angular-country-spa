@@ -21,7 +21,8 @@ import { CountryTableComponent } from './components/country-table/country-table.
   imports: [
     CommonModule,
     CountriesRoutingModule,
-    SharedModule
+    SharedModule,
+    //RouterModule
   ]
 })
 export class CountriesModule { }
